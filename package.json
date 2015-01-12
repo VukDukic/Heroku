@@ -1,0 +1,12 @@
+{
+  "name": "node-js-getting-started",
+  "version": "0.1.2",
+  
+  "dependencies": {
+    "express": "~4.9.x"
+  },
+  
+  "engines": {
+    "node": "0.10.x"
+  },
+}
