@@ -1,0 +1,12 @@
+{
+status: "success",
+content: "<div class="modal" id="messageModal"> <div class="modal-header"> 
+<a class="close" data-dismiss="modal">×</a> <h3>Invite <strong>Tyler Bachtell</strong> to play</h3> 
+</div> <form action="/message/send" data-ajax="true" method="POST" class="tr-invite"> <div class="modal-body">
+<div class="control-group"> <div class="error"></div> 
+<textarea id="tennis_round_message_content" name="tennis_round_message[content]" required="required">
+Hey, Tyler do you want to play tennis? How about today or tomorrow Saturday 27/08 at
+7pm at Willow Pass Tennis Courts at 3365 Willow Pass Rd, Concord, CA 94519?</textarea> </div> 
+<input type="hidden" id="tennis_round_message_toUser" name="tennis_round_message[toUser]" value="39078" /> 
+<input type="hidden" id="tennis_round_message_messageConversation" name="tennis_round_message[messageConversation]" value="0" /> <input type="hidden" id="tennis_round_message_toCoach" name="tennis_round_message[toCoach]" /> </div> <div class="modal-footer"> <button class="btn btn-primary" id="ajax-message-form-send" type="submit" value="Send Message">Send Message</button> <a class="btn" id="#ajax-message-form-cancel" data-dismiss="modal">Cancel</a> </div> </form> </div>"
+}
